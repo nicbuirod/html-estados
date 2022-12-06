@@ -101,6 +101,7 @@ p {
 }
 .precio{
     font-weight: 500;
+    color: rgb(103, 103, 103);
 }
 .change:hover{
     text-decoration: none;
@@ -115,7 +116,45 @@ p {
 @media (max-width:375px ) {
     .fondo {
         background-image: url('../img/pattern-background-mobile.svg');
-    width: auto;
-    height: auto;
+    width: 420px;
+    height: 200px;
+    background-size: cover;
+    }
+    .card {
+        width: 340px;
+        margin-left: 10px;
+        height: 600px;
+    }
+    .img_musica{
+        width: 340px;
+    }
+    .contenido__plan{
+        width: 290px;
+        margin-bottom: 15px;
+    }
+    .contenido {
+            padding-top: 25px;
+    }
+    .nota{
+        margin-left: 5px;
+    }
+    .plan{
+        margin-left: 10px;
+    }
+    .contenido__plan{
+        grid-template-columns: 90px 140px 80px;
+    }
+    .boton_pago{
+        width: 296px;
+    }
+    .boton_cancelar{
+        font-weight: 900;
+        color: rgb(146, 146, 146);
+    }
+    br{display: none;}
+    .texto_contenido{
+        letter-spacing: 0px;
+        margin-left: 40px;
+        margin-right: 35px;
     }
 }
